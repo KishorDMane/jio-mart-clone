@@ -118,6 +118,27 @@ body{
 .poster0001>img{
     width: 100%;
 }
-
+.Bimg{
+    display: flex;
+    align-items: center;
+    margin:auto;
+    width: 95%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.Itemsdiv{
+    width: 15%;
+    line-height: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.Itemsdiv>h3{
+    margin: 0px;
+}
+.Itemsdiv>h4{
+    margin: 10px;
+}
+.Itemsdiv>p{
+    margin: 0px;
+}
 
 
