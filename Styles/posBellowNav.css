@@ -119,5 +119,106 @@ body{
     width: 100%;
 }
 
+.middelPoster{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.Itemsdiv{
+    width: 15%;
+    line-height: 15px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    margin-left:20px ;
+}
+.Itemsdiv>h3{
+    margin: 0px;
+}
+.Itemsdiv>h4{
+    margin-top: 10px;
+}
+.Itemsdiv>p{
+    margin: 0px;
+}
+.Itemsdiv>img:hover{
+  
+    height: 160px;
+ 
+ }
+ .Itemsdiv>p+p{
+    color: green;
+ }
+ .Itemsdiv>button{
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(0,142,204);
+    border: 0px;
+    border-radius: 5px;
+ }
+ .twoImg{
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top:30px ;
 
+ }
+ .twoImg>img{
+    width: 50%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+ }
+ .Heddign{
+    margin-left:50px ;
+ }
+#Offersondailyessentials{
+    width: 90%;
+    border: 0px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+    gap: 20px;
+}
+#Offersondailyessentials>div{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(239,214,218);
+    display: block;
+    margin-left: 30px;
+    padding: 30px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+#Offersondailyessentials>div>img{
+    display: block;
+    margin: auto;
+    height: 50%;
+    margin-top: 10px;
+}
+#Offersondailyessentials>div>img:hover{
+    height: 65%;
+}
+#Offersondailyessentials>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.twoimggidebyside{
+    
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-around;
+    
+    margin: auto;
+    align-items: center;
+    gap: 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px;
+}
+img:hover{
+    cursor: pointer;
+}
 
